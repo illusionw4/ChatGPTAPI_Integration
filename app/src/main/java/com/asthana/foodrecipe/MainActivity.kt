@@ -27,7 +27,7 @@ import java.io.IOException
 
 
 class MainActivity : AppCompatActivity() {
-    private val apiKey = "j-gh-0-" // Replace with your actual API key
+    private val apiKey = "" // Replace with your actual API key
     private lateinit var chatGptApiClient: Chatgptapiclient
 
     lateinit var binding: ActivityMainBinding
