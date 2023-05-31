@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/startchatview"
+        android:layout_width="wrap_content"
+        android:background="@drawable/shapebox"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/purple"
+        >
+
+        <TextView
+            android:id="@+id/chatgptchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_margin="14dp"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userchatview"
+        android:layout_width="wrap_content"
+        android:background="@drawable/shapebox"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="6dp"
+        android:layout_marginStart="70dp"
+        android:backgroundTint="@color/green">
+
+        <TextView
+            android:id="@+id/userchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_margin="14dp"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+</RelativeLayout>
